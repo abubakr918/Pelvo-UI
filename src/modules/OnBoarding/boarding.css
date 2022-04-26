@@ -1,0 +1,218 @@
+.home-back-img {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.auth-left-footer {
+  margin-top: auto;
+  background: #fbfafc;
+  padding: 10px 0px;
+}
+
+.auth-left-footer p {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 18px;
+  color: #000000;
+}
+.auth-left-content {
+  position: absolute;
+  top: 150px;
+  bottom: 40px;
+  left: 0;
+  right: 0;
+  overflow: auto;
+}
+.auth-left-header {
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100px;
+}
+.main-left {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.auth-left-content img {
+  width: 17vw;
+  height: 425.89px;
+}
+
+.auth-btn {
+  background: #76bbb1;
+  box-shadow: 20px 20px 60px rgba(0, 0, 0, 0.4);
+  border-radius: 5px;
+  border: 0px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #ffffff !important;
+}
+.auth-small-btn {
+  width: 187px;
+  height: 48px;
+}
+.auth-medium-btn {
+  width: 347px;
+  height: 48px;
+}
+.auth-selected {
+  background: #ffffff;
+  border-radius: 4px;
+}
+.auth-label-container {
+  background: linear-gradient(91.93deg, #ffffff 0%, #ffffff 0.01%);
+  border: 2px solid #76bbb1;
+  box-sizing: border-box;
+  box-shadow: 0px 12px 16px rgba(0, 0, 0, 0.08);
+  border-radius: 4px;
+  padding: 10px 14px;
+}
+
+.auth-label-container h2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  color: #2e2c34;
+}
+
+.auth-label-container p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  margin-top: 0.5rem;
+  color: #2e2c34;
+}
+
+.auth-select-button {
+  background: #ffffff !important;
+  justify-content: space-between !important;
+  height: 75px !important;
+  align-items: center !important;
+  border-radius: 4px !important;
+}
+.auth-private {
+  background: #ffffff;
+  border-radius: 4px;
+  padding: 10px 10px;
+}
+
+.auth-back-btn {
+  background: #ffffff;
+  box-shadow: 20px 20px 60px rgba(0, 0, 0, 0.4);
+  border-radius: 5px;
+  width: 147px;
+  border: 0px;
+  padding: 10px 0px;
+}
+
+.auth-stepper-img {
+  height: 45px;
+}
+.auth-stepper-img {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0px;
+}
+
+.auth-onboard-form {
+  width: 510px;
+  background: #f7fafc;
+  border-radius: 5px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.auth-input-info {
+  width: 100%;
+  height: 36px;
+  font-family: "Inter", sans-serif;
+  border: none;
+  padding-left: 15px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19px;
+  color: #7a828a;
+  background: #ffffff;
+  border: 1px solid #76bbb1;
+  box-sizing: border-box;
+  /* Input/Default */
+
+  box-shadow: 0px 1px 2px rgba(50, 50, 71, 0.08),
+    0px 0px 1px rgba(50, 50, 71, 0.2);
+  border-radius: 6px;
+}
+
+.auth-form-select {
+  width: 100%;
+  height: 36px;
+  font-family: "Inter", sans-serif;
+  border: none;
+  padding-left: 15px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19px;
+  color: #7a828a;
+  background: #ffffff;
+  border: 0;
+  box-sizing: border-box;
+  box-shadow: 0px 1px 2px rgb(50 50 71 / 8%), 0px 0px 1px rgb(50 50 71 / 20%);
+  border-radius: 6px;
+  outline: 1px solid #76bbb1;
+  border-right: 16px solid transparent;
+}
+
+.auth-form-title {
+  display: flex;
+  justify-content: center;
+}
+
+.auth-form-title h2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 136.02%;
+  text-align: center;
+  background: linear-gradient(180deg, #000000 0%, #76bbb1 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.auth-bn-circle {
+  width: 48px;
+  height: 48px;
+  background: #76bbb1;
+  border-radius: 50%;
+}
+
+.auth-bn-container {
+  background: #ffffff;
+  border-radius: 5px;
+  padding: 20px 20px;
+  margin: 20px 0px;
+  box-shadow: 1px 2px 2px rgb(0 0 0 / 9%);
+}
+
+.auth-bn-container h3 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 25px;
+  color: #27272e;
+}
+
+.auth-bn-container p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 23px;
+  color: #425466;
+}

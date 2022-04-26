@@ -1,0 +1,548 @@
+/*======================
+   01. Google fonts
+========================*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+
+/*======================
+   02. Basic css
+========================*/
+html,
+body,
+div,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+strong,
+i,
+ol,
+ul,
+li,
+form,
+label,
+footer,
+header,
+menu,
+nav,
+section {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  line-height: 26px;
+  /*background: #F5F6FA;*/
+  color: #0d0d0d;
+  font-family: "Inter", sans-serif;
+  height: 100%;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+button:focus,
+input:focus,
+textarea:focus,
+select:focus {
+  outline: 0;
+}
+
+main {
+  overflow: hidden;
+}
+
+/*======================
+   03. Stepper
+========================*/
+
+.main-container {
+  height: 100vh;
+}
+
+.steps-name h6 {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 10px;
+  line-height: 20px;
+  color: #00313d;
+}
+
+.main-row {
+  padding: 10px 0px;
+  height: 100%;
+}
+
+.left-side {
+  height: 100%;
+  border-radius: 10px;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+.main-register {
+  height: 100%;
+  width: 457px;
+}
+.register-container {
+  padding: 0px 0px 0px 0px;
+  min-height: 85vh;
+}
+.already-account {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 10px 0px 0px 0px;
+}
+
+.already-account > p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  color: #8083a3;
+  padding-right: 20px;
+}
+
+.already-account > a {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 21px;
+  color: #0d0d0d;
+  padding-right: 20px;
+}
+
+.register-container h4 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 32px;
+  color: #00313d;
+}
+
+.stepper-container {
+  width: 100%;
+}
+
+.header-container > span {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  color: #00313d;
+}
+
+.custom-btn {
+  background: #00313d;
+  border-radius: 8px;
+  color: white;
+  border: 0px;
+}
+
+.button-login {
+  width: 127px;
+  height: 40px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+}
+
+.button-continue {
+  height: 54px;
+  width: 100%;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  backdrop-filter: blur(4px);
+}
+
+.header-container > p {
+  color: #00313d;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.country-box .input-group-text {
+  width: 100%;
+  border: transparent;
+  background-color: #edf2f7;
+  height: 45px;
+}
+
+.country-box .input-group > .input-group-append > .input-group-text {
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+
+.country-box .input-group-append {
+  width: 100%;
+}
+
+.country-box .custom-select {
+  background-color: #edf2f7;
+  border-radius: 6px;
+  border: transparent;
+}
+
+.country-box .dropdown-toggle::after {
+  display: none;
+}
+
+.receive-box .custom-select {
+  border: transparent;
+  background-color: #edf2f7;
+  border-radius: 6px;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 15px;
+  font-family: "Inter", sans-serif;
+  height: 45px;
+}
+
+.drop-icon {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.country-box .bootstrap-select .dropdown-toggle .filter-option {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.country-box .dropdown-toggle .filter-option-inner-inner {
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 15px;
+  font-family: "Inter", sans-serif;
+  text-transform: capitalize !important;
+}
+
+.input-info {
+  background: #f0f0f0;
+  border-radius: 8px;
+  width: 100%;
+  height: 45px;
+  font-family: "Inter", sans-serif;
+  border: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: rgba(63, 63, 68, 0.3);
+}
+
+.number-input {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.input-info > div {
+  padding: 0px 0px 0px 20px;
+  background-color: #67748e;
+  color: white;
+}
+.email-input > input {
+  padding: 0px 0px 0px 20px;
+}
+
+.btn {
+  cursor: pointer;
+}
+
+.send-box {
+  margin-left: 20px;
+}
+
+.send-box .dropdown.bootstrap-select {
+  height: 45px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 120px !important;
+}
+
+.send-box .bootstrap-select .dropdown-toggle .filter-option-inner-inner {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 15px;
+  color: #7a828a;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.send-box .bootstrap-select .dropdown-toggle .filter-option {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.send-box .dropdown-toggle::after {
+  display: none;
+}
+
+.send-box .input-group-text {
+  border: transparent;
+}
+
+.exchange-text {
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 24px;
+  letter-spacing: 0.75px;
+  color: #104469;
+}
+
+.form-group label {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  color: rgba(0, 49, 61, 0.5);
+  padding-bottom: 10px;
+}
+
+.register-text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11.7px;
+  line-height: 18px;
+  padding: 10px 0px 0px 0px;
+
+  color: #84818a;
+}
+
+.select-button {
+  background: #f0f0f0 !important;
+  justify-content: space-between !important;
+  height: 53px !important;
+  align-items: center !important;
+  border-radius: 10px !important;
+}
+
+.select-button > div {
+  align-items: center !important;
+  display: flex;
+}
+
+.select-button > div > .text {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  color: #00313d;
+  text-transform: capitalize;
+}
+
+/*======================
+   04. Stepper
+========================*/
+
+.react-code-input > input {
+  background: #feffff !important;
+  border: 2px solid rgba(0, 49, 61, 0.21) !important;
+  box-sizing: border-box !important;
+  border-radius: 10px !important;
+  width: 57px !important;
+  height: 75px !important;
+  margin-right: 15px !important;
+}
+.react-code-input {
+  padding: 30px 0px 40px 0px;
+}
+
+.resend-code-text > h6 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+
+  text-align: right;
+  background: #ffffff;
+  border-radius: 4px;
+  color: #2e2c34;
+  align-items: center;
+  width: 87px;
+  height: 20px;
+  text-align: center;
+}
+.resend-code-text {
+  background-color: #00313d;
+  border-radius: 4px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 20px;
+  margin: 0px 0px 40px 0px;
+}
+
+.resend-code-text > p {
+  width: 330px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+}
+
+/*======================
+   04. Bank Singup
+========================*/
+
+.personal-number > input {
+  padding: 0px 0px 0px 20px;
+}
+
+.password-info {
+  background: #f0f0f0;
+  border-radius: 8px;
+  width: 100%;
+  height: 45px;
+  font-family: "Inter", sans-serif;
+  border: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: rgba(63, 63, 68, 0.3);
+}
+
+.password-info > div {
+  width: 340px;
+}
+
+.password-info > input {
+  background: #f0f0f0;
+  border-radius: 8px;
+  width: 100%;
+  height: 45px;
+  font-family: "Inter", sans-serif;
+  border: none;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 21px;
+  color: #8083a3;
+}
+
+.personal-right > span {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 21px;
+  color: #8083a3;
+}
+
+/*======================
+   04. Bank Singup
+========================*/
+
+.container-input-create {
+  background-color: #f0f0f0;
+  mix-blend-mode: normal;
+  opacity: 0.6;
+  border: 1px solid rgba(0, 49, 61, 0.2);
+  border-radius: 8px;
+  padding: 4px 0px 8px 20px;
+}
+
+.container-input-create > label {
+  color: #8083a3;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.container-input-create > input {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 21px;
+  /* identical to box height, or 175% */
+  height: 20px !important;
+  color: #00313d !important;
+}
+
+.account-form-container h4 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 32px;
+  color: #00313d;
+}
+
+.account-form-container {
+  width: 100%;
+}
+
+.header-set-account {
+  width: 460px;
+}
+
+@media screen and (max-width: 660px) {
+  .main-register {
+    height: 100%;
+    width: 350px;
+  }
+}
+
+.signin-auth-container {
+  padding: 0px 0px 0px 0px;
+  min-height: 65vh;
+}
+
+.signin-auth-container h4 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 32px;
+  color: #00313d;
+}
